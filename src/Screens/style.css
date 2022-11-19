@@ -1,0 +1,28 @@
+
+.blocs {
+    padding: 15vh 5vw ;
+}
+.pad {
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+.profile {
+    padding-top: 5vw;
+}
+.project, .education{
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+}
+.contact {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+.resume{
+    box-shadow: 10px 10px 10px #bebebe;
+}
+.resume:hover {
+    box-shadow: 10px 10px 10px #b1b1b1;
+}
