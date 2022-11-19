@@ -16,7 +16,7 @@ import { lightTheme, darkTheme } from "./Screens/theme";
 import SettingsBrightnessTwoToneIcon from '@material-ui/icons/SettingsBrightnessTwoTone';
 
 function App() {
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
     const themeToggler = () => {
         theme === 'light' ? setTheme('dark') : setTheme('light')
     }

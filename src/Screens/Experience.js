@@ -40,14 +40,15 @@ export default function Experience() {
             </style>
             <Container >
                 <Row>
-                    <Col> <h3>Work Experience</h3></Col>
+                    <Col> <h3>EXPÉRIENCES PROFESSIONNELLES</h3></Col>
                 </Row>
                 <Row>
         <Timeline align="alternate">
             <TimelineItem>
                 <TimelineOppositeContent>
                     <Typography variant="body2" >
-                        02/2021
+                    Juil. Aout 2021<br/>
+                    (Boujdour, Maroc)
                     </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
@@ -59,73 +60,59 @@ export default function Experience() {
                 <TimelineContent>
                     <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper} >
                         <Typography variant="h6" component="h1">
-                            Intelcia IT Solution
-                        </Typography>
-                        <Typography>PHP Developer</Typography>
-                    </Paper>
-                </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-                <TimelineOppositeContent>
-                    <Typography variant="body2" >
-                        09/2020 - 01/2021
-                    </Typography>
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineDot>
-                        <LaptopMacIcon />
-                    </TimelineDot>
-                    <TimelineConnector className="languer" />
-                </TimelineSeparator>
-                <TimelineContent>
-                    <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper}>
-                        <Typography variant="h6" component="h1">
-                            SAGlobal
-                        </Typography>
-                        <Typography>Developer CRM Dynamics 365</Typography>
-                    </Paper>
-                </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-                <TimelineOppositeContent>
-                    <Typography variant="body2" >
-                        03/2020 - 08/2020
-                    </Typography>
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineDot>
-                        <LaptopMacIcon />
-                    </TimelineDot>
-                    <TimelineConnector className="languer" />
-                </TimelineSeparator>
-                <TimelineContent>
-                    <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper}>
-                        <Typography variant="h6" component="h1">
-                            SAGlobal
-                        </Typography>
-                        <Typography>Internship - Development the Transport Management System under Dynamics 365</Typography>
-                    </Paper>
-                </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-                <TimelineOppositeContent>
-                    <Typography variant="body2" >
-                        07/2020 - 09/2020
-                    </Typography>
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineDot>
-                        <LaptopMacIcon />
-                    </TimelineDot>
-                </TimelineSeparator>
-                <TimelineContent>
-                    <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper}>
-                        <Typography variant="h6" component="h1">
-                            Pexiluis Africa
+                            ONEE-Branche eau Boujdour
                         </Typography>
                         <Typography>
-                            Internship - Development of a decision information system for Pexiluis Africa management.
+                        <span>Stage d’observation</span><br/>
+                            Etude et analyse des circuits électrique et
+                            pneumatique de l’installation de la station.
                         </Typography>
+                    </Paper>
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineOppositeContent>
+                    <Typography variant="body2" >
+                    Avril - Jun 2020<br/>
+(Boujdour, Maroc)
+                    </Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineDot>
+                        <LaptopMacIcon />
+                    </TimelineDot>
+                    <TimelineConnector className="languer" />
+                </TimelineSeparator>
+                <TimelineContent>
+                    <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper}>
+                        <Typography variant="h6" component="h1">
+                        École Supérieure de Technologie Fès
+                        </Typography>
+                        <Typography>
+                            Conception et réalisation d’un désinfecteur UV intelligent
+                        </Typography>
+                    </Paper>
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineOppositeContent>
+                    <Typography variant="body2" >
+                    Juillet- Aout 2019<br/>
+(Boujdour, Maroc)
+                    </Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineDot>
+                        <LaptopMacIcon />
+                    </TimelineDot>
+                    <TimelineConnector className="languer" />
+                </TimelineSeparator>
+                <TimelineContent>
+                    <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper}>
+                        <Typography variant="h6" component="h1">
+                        ONEE-Branche eau Boujdour
+                        </Typography>
+                        <Typography>Stage d’observation</Typography>
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
