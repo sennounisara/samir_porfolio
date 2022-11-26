@@ -1,14 +1,21 @@
 
 .blocs {
-    padding: 15vh 5vw ;
+    padding: 5vh 5vw ;
 }
 .pad {
-    padding-right: 5vw;
-    padding-left: 5vw;
+    padding: 5vh 5vw ;
 }
 .profile {
     height: 93vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_me{
+    height: 93vh;
+}
+.aboutus_content{
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -89,4 +96,22 @@
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
   }
+  .title{
+    padding-bottom: 5vh;
+  }
+  .name{
+    color: #00abfb;
+  }
 
+.aboutme>li {
+    font-size: 20px;
+    --tw-text-opacity: 1;
+    color: rgb(51 204 255/var(--tw-text-opacity));
+}
+.text_01 {
+    font-weight: 500;
+    width: 150px;
+}
+.imageProfil{
+    margin: 25px;
+}

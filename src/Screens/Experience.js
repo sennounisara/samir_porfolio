@@ -26,7 +26,7 @@ export default function Experience() {
     const classes = useStyles();
 
     return (
-        <div id="experience" className="pad">
+        <div id="experience" className="pad ">
             <style>
                 {`
                    .languer{

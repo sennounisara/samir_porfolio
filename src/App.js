@@ -7,6 +7,7 @@ import {Container, Nav, Navbar} from "react-bootstrap";
 import Profile from './Screens/Profile';
 import Education from "./Screens/Education";
 import Experience from "./Screens/Experience";
+import About from "./Screens/About";
 import Skills from "./Screens/Skills";
 import Project from "./Screens/Project";
 import Contact from "./Screens/Contact";
@@ -65,11 +66,10 @@ function App() {
         </Container>
     </Navbar>
     <Profile theme={theme}/>
-        <Skills/>
-
+    <About/>
     <Experience theme={theme}/>
     <Project theme={theme}/>
-        <Education/>
+    <Skills/>
     <Contact theme={theme}/>
     </div>
           </>
