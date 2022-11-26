@@ -14,6 +14,7 @@
 }
 .contact {
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    padding-bottom: unset;
 }
 .zoom:hover {
     -ms-transform: scale(1.2); /* IE 9 */
@@ -26,3 +27,66 @@
 .resume:hover {
     box-shadow: 10px 10px 10px #b1b1b1;
 }
+.footer-link{
+    font-weight: bold;
+}
+
+.blockContact {
+    border: solid 1px #00abfb;
+    padding: 1vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3vh;
+  }
+  .iconContact{
+    height: 4rem;
+    width: 4rem;
+    border: solid 1px #00abfb;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    border-radius: 50%;
+  }
+  .contentContact{
+    padding: 12px;
+    text-align: start;
+  }
+  .toolContact{
+    margin: unset;
+    margin-bottom: 10px;
+  }
+  .linkContact{
+    margin: unset;
+    text-decoration-line: none;
+  }
+  path {
+    fill: unset!important;
+  }
+  .form{
+    padding: 1.25rem;
+    text-align: left;
+    width: 100%;
+  }
+  .contactDescription{
+    margin-top: 3vh;
+    text-align: left;
+  }
+  .socialMediaIcon{
+    height: 2.5rem;
+    width: 2.5rem;
+    border: solid 1px #00abfb;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+  }
+  .socialMediaBlock{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+

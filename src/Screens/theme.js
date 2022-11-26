@@ -5,16 +5,18 @@ export const lightTheme = {
     blocs : '#F8F9FA',
     nav: 'light',
     variant: 'light',
-    fill: '#363537',
+    fill: '#343a40',
     card: '#FFF',
+    iconBackground:'rgb(213, 231, 255,50%)',
 }
 export const darkTheme = {
-    body: '#363537',
+    body: '#343a40',
     text: '#FAFAFA',
     toggleBorder: '#6B8096',
-    blocs : '#686669',
+    blocs : 'rgb(43, 42, 42)',
     nav: 'dark',
     variant: 'dark',
     fill: '#FFF',
     card:'#929292',
+    iconBackground:'rgb(40 129 247 / 34%)',
 }
