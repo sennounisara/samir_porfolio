@@ -7,13 +7,6 @@ class Profile extends React.Component {
     render() {
         return (
             <div id="profile" className="pad profile">
-                <style>
-                    {`
-                   .b{
-                   margin: 10vw;
-                   }
-                        `}
-                </style>
                 <Container>
                     <Row xs={1} md={2}>
                         <Col lg={8}>
@@ -24,7 +17,7 @@ class Profile extends React.Component {
                                 Passionné et motivé.
                             </p>
                             <a href="https://drive.google.com/file/d/1yylhHhtqXkylOyUi14p0hIFQCEbH6uAJ/view?usp=sharing"><Button  size="lg" className="resume">
-                                VOIR MON CV
+                                CV
                             </Button></a>
                         </Col>
                         <Col lg={4}><img alt="software engineer" src={software} width="100%"/></Col>
