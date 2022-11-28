@@ -1,21 +1,19 @@
 import * as React from "react";
-import {Container,Card, Image, Row} from "react-bootstrap";
+import {Container,Card, Row} from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import dynamics from '../Image/Dynamics.PNG';
 import geofit from '../Image/geofit.png'
 import pfe from '../Image/pfe.png';
 import smartfocus from '../Image/smartfocus.PNG';
 import './style.css'
-
+import Title from './Components/Title'
 class Project extends React.Component {
     render() {
         return (
             <div id="project" >
                 <div  className="project blocs">
                 <Container >
-                    <Row>
-                        <Col> <h3>Projects</h3></Col>
-                    </Row>
+                <Title title="PROJETS"/>
                     <Row>
                         <Col lg={3} md={6}>
                         <Card style={{height:"320px",marginTop:10}} className="Card">

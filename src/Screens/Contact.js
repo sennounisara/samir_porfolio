@@ -1,13 +1,13 @@
 import * as React from "react";
 import {Container, Row, Col, Form, Button} from "react-bootstrap";
-import logoWhite from '../Image/SS.png';
-import logoDrak from '../Image/SSWhite.png';
+import Title from './Components/Title'
 import { motion } from "framer-motion/dist/framer-motion"
 import './style.css';
 function Contact (props) {
         return (
             <div className="blocs contact">
                 <Container>
+                <Title title="CONTACT US"/>
                     <Row>
                         <Col lg={6}>
                             <div className="contactDescription">

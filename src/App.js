@@ -67,9 +67,9 @@ function App() {
     </Navbar>
     <Profile theme={theme}/>
     <About/>
+    <Skills/>
     <Experience theme={theme}/>
     <Project theme={theme}/>
-    <Skills/>
     <Contact theme={theme}/>
     </div>
           </>

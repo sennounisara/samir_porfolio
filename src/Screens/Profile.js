@@ -9,7 +9,7 @@ class Profile extends React.Component {
         return (
             <div id="profile" className="pad profile">
                 <Container>
-                    <Row xs={1} md={2}>
+                    <Row>
                         <Col lg={12}>
                             <div className="imageProfil">
                             <img  alt="software engineer" src={profil} width="16%"/>

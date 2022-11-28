@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .blocs {
     padding: 5vh 5vw ;
@@ -114,4 +117,13 @@
 }
 .imageProfil{
     margin: 25px;
+}
+
+.Background-title{
+  opacity: .08;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: -4.5rem ;
+  font-Size : 6rem;
+  line-height: 1
 }

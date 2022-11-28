@@ -2,16 +2,14 @@ import * as React from "react";
 import {Container, Image, Row,Button} from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import samir from '../Image/samir.jfif'
-
+import Title from './Components/Title'
 class About extends React.Component {
     render() {
         return (
 
-            <div id="about_me" className="pad blocs about_me">
+            <div id="about_me" className="pad about_me">
                 <Container >
-                    <Row className="title">
-                        <Col> <h3>ABOUT ME</h3></Col>
-                    </Row>
+                <Title title="A PROPOS DE MOI"/>
                     <Row className="aboutus_content">
                         <Col lg={6} md={6}><Image src={samir} width="70%" />
                         </Col>

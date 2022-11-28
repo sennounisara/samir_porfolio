@@ -12,7 +12,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import {Container, Row} from "react-bootstrap";
 import Col from "react-bootstrap/Col";
-
+import Title from './Components/Title'
 const useStyles = makeStyles((theme) => ({
     paper: {
         padding: '6px 16px',
@@ -39,9 +39,7 @@ export default function Experience() {
                         `}
             </style>
             <Container >
-                <Row>
-                    <Col> <h3>EXPÉRIENCES PROFESSIONNELLES</h3></Col>
-                </Row>
+            <Title title="EXPÉRIENCES"/>
                 <Row>
         <Timeline align="alternate">
             <TimelineItem>

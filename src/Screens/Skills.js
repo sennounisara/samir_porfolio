@@ -4,16 +4,14 @@ import Col from "react-bootstrap/Col";
 import web from '../Image/web_development.svg';
 import mobile from '../Image/mobile_development.svg';
 import db from '../Image/server.svg';
-
+import Title from './Components/Title'
 class Skills extends React.Component {
     render() {
         return (
 
-            <div id="skills" className="pad" >
+            <div id="skills" className="pad blocs" >
                 <Container >
-                    <Row className="title">
-                        <Col> <h3>COMPETENCES</h3></Col>
-                    </Row>
+                <Title title="COMPETANCE"/>
                     <Row>
                         <Col lg={4} md={6}><Image src={web}  />
                             <h6>LOGICIELS</h6>
